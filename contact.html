@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <link rel="shortcut icon" href="fvcn.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    
+  <title>emisia</title>
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+                       <!--  L O G O  -->
+    <a href="index.html"><div class="logo"></div></a> 
+<!-- kraj logo -->
+
+                       <!--  N A V I G A C I J A  -->
+
+  <a href="#navi" class="navi-trigger">
+    <span class="navi-icon">
+      <svg viewBox="0 0 800 600">
+          <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+          <path d="M300,320 L540,320" id="middle"></path>
+          <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+        </svg>
+    </span>
+  </a>
+
+  <!--  Hidden Navi Menu  -->
+
+  <div id="navi" class="navi">
+    <div class="navigation-wrapper">
+      <div class="half-block">
+
+        <nav>
+          <ul class="primary-navi">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>            
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+<!-- kraj navigacije -->
+
+
+                        <!-- POZADNSKA SLIKA KONTAKT -->
+
+           <div class="kontakt-holder">
+               <div class="kontakt-container">
+                  <p>Get in Touch</p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+
+                       <!--  F  O  R  M  A  -->
+  <div class="forma-bck">  
+                     
+    <div class="contact-wrap">
+        <div class="form-wrapper">
+          <div class="form-div">
+            <form id="form">
+              <div class="input-wrap">
+                <input type="text" name="name" class="feedback-input" placeholder="First Name" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="33" required/>
+                <input type="tel" name="phone" class="feedback-input" placeholder="Last Name" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="33" required/>
+              </div>
+              <input type="email" name="email" class="feedback-input" placeholder="Email" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="99" required/>
+              <textarea name="message" class="feedback-input message" placeholder="Message" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="999" required></textarea>
+              <div class="checkbox-wrap">
+                <input id="send-checkbox" type="checkbox" name="checkbox" class="checkbox" required/>
+                <label class="captcha" for="send-checkbox">I'm a human</label>
+              </div>
+              <button type="submit" class="send-button">Submit</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<!-- kraj forme -->
+
+<div style="clear: both"></div>
+
+
+
+                       <!-- M A P A  -->
+       <div class="info"> 
+
+        <div id="map"></div>
+
+        <div class="informacije">
+        	<p>Dragoljuba Milovanovića Bene 76</p>
+        	<p>Kragujevac</p>
+        	<p>Serbia</p>
+        	<p>t +381 34 202 568</p>
+        	<p>f +381 34 202 846</p>
+
+        	<p><span>office@emisia.net</span></p>
+        </div>
+
+       </div>
+
+<div style="clear: both"></div>
+
+
+<!-- kraj mape -->
+
+
+
+
+
+
+
+                       <!--  F  O  O  T  E  R  -->
+<div class="copyright">
+      <div class="logo2"><img src="images/logo_emisia.svg" alt="absence logo" style="width:170px;"></div>
+
+         <div class="footer-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Gallery</a></li>
+              <li><a href="">join</a></li> 
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>  
+<div class="naslovi">      
+<div class="linija1"></div>
+      <h5>© 2009-2017 All Rights Reserved. Emisia Consulting</h5>
+<div class="linija2"></div> 
+</div>
+      <p>All trademarks, logos and brands are property of their respective owners.</p>
+<p>All company, product and service names used in this website are for identification purposes only.</p>
+
+                  <ul class="social">
+                    <li><p>Follow Us</p></li>
+                    <li><a href=""><img src="images/fb.svg" width="24"/></a> </li>
+                    <li><a href=""><img src="images/in.svg" width="24"/></a> </li>
+                    <li><a href=""><img src="images/tw.svg" width="24"/></a> </li>
+                  </ul>
+</div>
+
+<!-- kraj footer -->
+  
+
+<!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+ <script type="text/javascript">
+$(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+ </script>
+
+
+<script type="text/javascript">
+	/* $(document).ready(function() {
+	//  to validate your form with js
+	$("#form").submit(function() {
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change-path to php file
+			data: $(this).serialize()
+		}).done(function() {
+			$(this).find("input").val("");
+			alert("Your message send.");
+			$("#form").trigger("reset");
+		});
+		return false;
+	});
+}); */
+
+// code for your php file
+/* <?php
+
+$recepient = "your@mail.com";
+$sitename = "domain-name.com";
+
+$name = trim($_POST["name"]);
+$email = trim($_POST["email"]);
+$phone = trim($_POST["phone"]);
+$text = trim($_POST["message"]);
+$message = "Name: $name \nEmail $email \nPhone: $phone \nMessage: $text";
+
+$pagetitle = "Message from your website \"$sitename\"";
+mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient"); */
+</script>
+
+
+<!-- M A P A  -->
+
+         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZWpW0-4ey3bEimFWctq8PvYQSIcgEBxA"></script>
+         
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 15,
+                    scrollwheel: false,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(44.014357, 20.901907), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#557dbd"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f5fa"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":25}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":"64"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"lightness":"100"},{"saturation":"-81"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"lightness":"100"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#6b94d6"},{"visibility":"on"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(44.014270, 20.901907),
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                    icon: 'Untitled-5.png'
+
+
+                });
+            }
+        </script>
+
+<script type="text/javascript"></script>
+
+    </head>
+
+  <script type="text/javascript">
+	$(document).ready(function() {
+  $('body').css('display', 'none');
+  $('body').fadeIn(1000);
+  $('.link').click(function(event) {
+    event.preventDefault();
+    newLocation = $('.link a').attr("href");
+    $('body').fadeOut(1000, newpage);
+  });
+  function newpage() {
+    window.location = newLocation;
+  }
+});
+</script>      
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+  if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
