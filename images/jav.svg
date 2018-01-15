@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2D5EAC;}
+	.st1{fill:#F06725;}
+	.st2{fill:#D3D8DE;}
+	.st3{opacity:0.1;fill:#010101;}
+</style>
+<g>
+	<g>
+		<rect x="19.4" y="41.4" class="st0" width="14.1" height="5.1"/>
+		<rect x="39.4" y="41.4" class="st0" width="16" height="5.1"/>
+	</g>
+	<g>
+		<rect x="55.3" y="55.9" class="st1" width="78.1" height="5.1"/>
+		<rect x="139.2" y="55.9" class="st0" width="41.4" height="5.1"/>
+		<rect x="25.5" y="55.9" class="st1" width="13.9" height="5.1"/>
+	</g>
+	<g>
+		<rect x="55.3" y="70.4" class="st0" width="68.6" height="5.1"/>
+		<rect x="164.4" y="70.4" class="st0" width="16.2" height="5.1"/>
+		<rect x="129.8" y="70.4" class="st1" width="27.4" height="5.1"/>
+		<rect x="25.5" y="70.4" class="st0" width="13.9" height="5.1"/>
+	</g>
+	<g>
+		<rect x="55.3" y="84.9" class="st1" width="47.9" height="5.1"/>
+		<rect x="111.2" y="84.9" class="st1" width="22.4" height="5.1"/>
+		<rect x="140.6" y="84.9" class="st0" width="40" height="5.1"/>
+		<rect x="25.5" y="84.9" class="st1" width="13.9" height="5.1"/>
+	</g>
+	<g>
+		<rect x="55.3" y="99.4" class="st0" width="68.6" height="5.1"/>
+		<rect x="129.8" y="99.4" class="st1" width="50.7" height="5.1"/>
+		<rect x="25.5" y="99.4" class="st0" width="13.9" height="5.1"/>
+	</g>
+	<g>
+		<rect x="19.4" y="113.8" class="st1" width="14.1" height="5.1"/>
+	</g>
+	<polygon class="st2" points="133.7,178.1 66.3,178.1 73.5,143.3 126.5,143.3 	"/>
+	<polygon class="st3" points="130.3,161.7 71.2,154.1 73.5,143.3 126.5,143.3 	"/>
+	<path class="st2" d="M191,21.9H9c-4.4,0-7.9,3.6-7.9,7.9v111.5c0,4.4,3.6,7.9,7.9,7.9h182c4.4,0,7.9-3.6,7.9-7.9V29.8
+		C198.9,25.4,195.4,21.9,191,21.9z M190.9,129.7H9.1V30.6h181.8V129.7z"/>
+</g>
+</svg>
